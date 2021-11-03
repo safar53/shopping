@@ -39,7 +39,7 @@ const Products = (props) => {
             <div className="book-info">
               <h3 className="book-name">{book.name}</h3>
               <p className="author">Author: {book.author}</p>
-              <p className="price">Price: {book.price}</p>
+              <p className="price">Price: {book.price}$</p>
               <button
                 className="add-to-cart"
                 onClick={() => props.addToCart(book)}
